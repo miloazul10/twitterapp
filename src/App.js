@@ -11,12 +11,12 @@ import {
     MailOutline,
     UserOutline,
     DotsCircleHorizontalOutline
-} from "./components/sidebar/node_modules/@graywolfai/react-heroicons";
+} from "@graywolfai/react-heroicons";
 
 class App extends React.Component {
 
     constructor() {
-        super(); //Es necesario colocar super para poder crear mi estado para este componente
+        super(); 
         this.state = {
             iconArray: [ 
                 < HomeSolid />,
